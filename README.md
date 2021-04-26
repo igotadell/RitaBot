@@ -1,4 +1,4 @@
-<p align="center"><a href="https://ritabot.org/"><img src="https://media3.giphy.com/media/YO4a0qsdVX3Gq3darL/giphy.gif" data-canonical-src="https://media3.giphy.com/media/YO4a0qsdVX3Gq3darL/giphy.gif" width="175" height="175" href="https://ritabot.org/"></a></p>
+<p align="center"><a href="https://ritabot.gg/"><img src="https://media3.giphy.com/media/YO4a0qsdVX3Gq3darL/giphy.gif" data-canonical-src="https://media3.giphy.com/media/YO4a0qsdVX3Gq3darL/giphy.gif" width="175" height="175" href="https://ritabot.gg/"></a></p>
 <h1 align="center">Rita</h1>
 <p align="center">Breaking the language barrier for free.</p>
 
@@ -34,16 +34,16 @@
 * [Setting up Rita locally](#local)
 * [How to Update your Bot](#update)
 * [Coming Soon](#soon)
-  * [Heroku Database Support](https://ritabot.org/dbsupport/)
-  * [Setup on a Raspberry Pi](https://ritabot.org/raspberry-pi/)
-  * [Whats New with Rita](https://ritabot.org/whats-new/)
-  * [Features](https://ritabot.org/features)
-  * [Usage](https://ritabot.org/usage/)
-  * [How to Update your Database Manually](https://ritabot.org/dbsupport/)
-  * [C-3PO to RITA Bot Migration](https://ritabot.org/migration/)
-  * [Webhook Log Setup](https://ritabot.org/troubleshooting)
-  * [Common Issues](https://ritabot.org/common-issues)
-  * [Command Wiki](https://ritabot.org/wiki)
+  * [Heroku Database Support](https://ritabot.gg/dbsupport/)
+  * [Setup on a Raspberry Pi](https://ritabot.gg/raspberry-pi/)
+  * [Whats New with Rita](https://ritabot.gg/whats-new/)
+  * [Features](https://ritabot.gg/features)
+  * [Usage](https://ritabot.gg/usage/)
+  * [How to Update your Database Manually](https://ritabot.gg/dbsupport/)
+  * [C-3PO to RITA Bot Migration](https://ritabot.gg/migration/)
+  * [Webhook Log Setup](https://ritabot.gg/troubleshooting)
+  * [Common Issues](https://ritabot.gg/common-issues)
+  * [Command Wiki](https://ritabot.gg/wiki)
     * [Supporters](#supporters)
     * [Credits & License](#credits-&-license)
     * [Design Team](#design-team)
@@ -65,7 +65,7 @@
 
 * Please ***star our project*** if you like it using the top-right Star icon. Every star helps us! 
 <p align="center">
-<img src="https://ritabot.org/assets/images/star.png" href="https://github.com/RitaBot-Project/RitaBot/stargazers">
+<img src="https://ritabot.gg/assets/images/star.png" href="https://github.com/RitaBot-Project/RitaBot/stargazers">
 </p><br/><br/>
 
 #### 2. Create a new [Discord Application](https://discordapp.com/developers/applications) in the Discord Developer Portal
@@ -125,11 +125,7 @@
 
 #### 4. Updating Database
 
-* Once the bot has been deployed with the successfully updated fork you will need to update the database using some commands.
-* Run the following commands in order
-  * **`!t settings updatedb`**
-  * **`!t settings dbfix`**
-  * **`!t embed on`** or **`!t embed off`** (value of the translation style)
+* Once the bot has been deployed with the successfully updated fork you are all done.
 ------
 
 ## <a name="local"></a>:desktop_computer: Running Rita Locally
@@ -155,11 +151,7 @@ Rename the existing **.env.example** file and name it **.env**. Edit the Values 
 * Replace the **CLIENTID** string in the following URL with your own apps client id: https://discordapp.com/oauth2/authorize?&client_id=**CLIENTID**&scope=bot&permissions=8
   * Visit the resulting URL and add your bot to any server where you have admin privileges.
 
-* Once added, your bot should show up as online. However, the first deploy is always broken so you have to turn it off and deploy the bot again.
-  * When you first run it ***restart/deploy the bot once(again)*** and then type in chat the following commands:
-    * `!t settings dbfix`
-    * `!t settings updatedb`
-    * `!t embed on` or `!t embed off`
+* Once added, your bot should show up as online. 
   * Your bot is now setup and ready for any translation you have for it to do. Use the commands `!t help` and `!t help modules` to learn more about the commands Rita has!
 
 ## <a name="database"></a>Heroku Database Support
